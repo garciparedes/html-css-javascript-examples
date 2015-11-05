@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid black;
+}
