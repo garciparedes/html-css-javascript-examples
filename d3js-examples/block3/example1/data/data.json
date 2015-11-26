@@ -1,0 +1,36 @@
+{"frutas":
+    [
+        {
+            "Fruta": "Manzana",
+            "Precio": 2
+        },
+        {
+            "Fruta": "Pera",
+            "Precio": 1
+        },
+        {
+            "Fruta": "Naranja",
+            "Precio": 0
+        },
+        {
+            "Fruta": "Limon",
+            "Precio": 7
+        },
+        {
+            "Fruta": "Melon",
+            "Precio": 3
+        },
+        {
+            "Fruta": "Melon",
+            "Precio": 3
+        },
+        {
+            "Fruta": "Melon",
+            "Precio": 3
+        },
+        {
+            "Fruta": "Sandia",
+            "Precio": 5
+        }
+    ]
+}
