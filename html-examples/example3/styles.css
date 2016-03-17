@@ -1,0 +1,19 @@
+ul, ol { /*listas ordenadas y desordenadas */
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: green;
+}
+
+h1 { /* cabeceras de primer nivel */
+    font-family: arial;
+    font-size: 20pt;
+    color: red;
+}
+
+table { /* tablas */
+    font-family: courier;
+    font-size: 18pt;
+    color: blue;
+    margin: 25px;
+    padding: 15px;
+}

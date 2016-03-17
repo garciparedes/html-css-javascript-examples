@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 
 <html>
+    <!-- Cabecera -->
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css"/>
     </head>
 
+    <!-- Cuerpo -->
     <body>
+
+        <!-- Lista de contenidos -->
         <h1>Contenidos</h1>
 
             <ul>
@@ -18,6 +22,7 @@
                         <li>Lenguaje CSS</li>
                     </ol>
                 </li>
+                
                 <li>TEMA 2
                     <ol>
                         <li>Páginas CSS</li>
@@ -27,6 +32,7 @@
                 </li>
             </ul>
 
+        <!-- Tabla de resumen -->
         <h1>Resumen</h1>
 
             <table border="1">
@@ -66,10 +72,40 @@
                 </tr>
             </table>
 
+        <!-- Formulario de Registro -->
         <h1>Registro</h1>
 
-        
+        <form method="post" action="registrarse">
+            <p>
+                Nombre:
+                <input type="text" name="nombre"/>
+            </p>
 
+            <p>
+                Apellidos:
+                <input type="text"name="apellidos"/>
+            </p>
+
+            <p>
+                <input type="checkbox" name="condiciones" value="Acepto">Acepto las condiciones</input>
+            </p>
+
+            <p>
+                Procedencia:
+                <input type="radio" name="procedencia" value="España">España</input>
+                <input type="radio" name="procedencia" value="Europa"> Europa</input>
+                <input type="radio" name="procedencia" value="RestoMundo"> Resto mundo</input>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar"/>
+            </p>
+        </form>
+
+        <!-- Vista preliminar de imagenes-->
         <h1>Vista preliminar</h1>
+            <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/6G_iPod.svg/200px-6G_iPod.svg.png" alt="classic"/>
+            <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/7th_Generation_iPod_Nano.svg/150px-7th_Generation_iPod_Nano.svg.png" alt="nano"/>
+            <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/5G_IPod_Shuffle.svg/200px-5G_IPod_Shuffle.svg.png" alt="suffle"/>
     </body>
 </html>
