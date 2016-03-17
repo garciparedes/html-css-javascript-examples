@@ -1,0 +1,19 @@
+h1 {
+    font-family: arial;
+    font-size:20pt;
+    color: red;
+}
+
+table {
+    font-family: courier;
+    font-size: 18pt;
+    color: blue;
+    margin: 25px;
+    padding: 15px;
+}
+
+ul {
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: green;
+}
