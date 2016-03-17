@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE factura [
+    <!ELEMENT factura       (numero, empresa, cliente, fecha, producto+)>
+    <!ELEMENT numero        (#PCDATA)>
+    <!ELEMENT empresa       (nombre, direccion, localidad, cp, cif)>
+    <!ELEMENT cliente       (nombre, direccion, localidad, cp)>
+    <!ELEMENT fecha         (#PCDATA)>
+    <!ELEMENT producto      (referencia, descripcion, cantidad, precio, iva)>
+
+    <!ELEMENT nombre        (#PCDATA)>
+    <!ELEMENT direccion     (#PCDATA)>
+    <!ELEMENT localidad     (#PCDATA)>
+    <!ELEMENT cp            (#PCDATA)>
+
+    <!ELEMENT cif           (#PCDATA)>
+
+    <!ELEMENT referencia    (#PCDATA)>
+    <!ELEMENT descripcion   (#PCDATA)>
+    <!ELEMENT cantidad      (#PCDATA)>
+    <!ELEMENT precio        (#PCDATA)>
+    <!ELEMENT iva           (#PCDATA)>
+]>
+<factura>
+    <numero>999</numero>
+
+    <empresa>
+        <nombre>Equipos Digitales S.L.</nombre>
+        <direccion>Av. Manzano s/n </direccion>
+        <localidad>Madrid</localidad>
+        <cp>28015</cp>
+        <cif>Q-9876543</cif>
+    </empresa>
+
+    <cliente>
+        <nombre>Datio Bueno Gutierrez</nombre>
+        <direccion>Av. Oporto nº7 4ºd</direccion>
+        <localidad>Madrid</localidad>
+        <cp>28043</cp>
+    </cliente>
+
+    <fecha>12-01-2005</fecha>
+
+    <producto>
+        <referencia>MI93</referencia>
+        <descripcion>PENTIUM IV</descripcion>
+        <cantidad>1</cantidad>
+        <precio>230</precio>
+        <iva>16</iva>
+    </producto>
+
+    <producto>
+        <referencia>MB84</referencia>
+        <descripcion>PLACA BASE P4</descripcion>
+        <cantidad>1</cantidad>
+        <precio>180</precio>
+        <iva>16</iva>
+    </producto>
+
+    <producto>
+        <referencia>ME32</referencia>
+        <descripcion>DIMM DDR 512MB</descripcion>
+        <cantidad>2</cantidad>
+        <precio>40</precio>
+        <iva>16</iva>
+    </producto>
+
+    <producto>
+        <referencia>HDA7</referencia>
+        <descripcion>DISCO DURO 250GB</descripcion>
+        <cantidad>4</cantidad>
+        <precio>120</precio>
+        <iva>16</iva>
+    </producto>
+</factura>

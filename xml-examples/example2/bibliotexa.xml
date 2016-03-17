@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro     (titulo, autor*, isbn, editorial, año)>
+    <!ELEMENT titulo    (#PCDATA)>
+    <!ELEMENT autor     (#PCDATA)>
+    <!ELEMENT isbn      (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT año       (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro>
+        <titulo>Murach's Java Servlets and JSP</titulo>
+        <autor>Andrea Steelman</autor>
+        <autor>Joel Murach</autor>
+        <isbn>978-1890774448</isbn>
+        <editorial>Mike Murach Associates</editorial>
+        <año>2008</año>
+    </libro>
+
+    <libro>
+        <titulo>Web Services: Concepts, Architectures and Applications</titulo>
+        <autor>Gustavo Alonso</autor>
+        <autor>Fabio Casati</autor>
+        <autor>Harumi Kuno</autor>
+        <autor>Vijay Machiraju</autor>
+        <isbn>978-3642078880</isbn>
+        <editorial>Springer</editorial>
+        <año>2010</año>
+    </libro>
+</biblioteca>
